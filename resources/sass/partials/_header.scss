@@ -1,5 +1,5 @@
 header{
-
+ min-width: 918px;
     ul{
         list-style: none;
         a{
@@ -49,15 +49,11 @@ header{
                     text-transform: uppercase;
                     padding-bottom: 62px;
                     font-size: 0.9rem;
-                    &:hover{
+                    &:hover,
+                    &.active                    {
                         color: $mainBlueColor;
                         border-bottom: 5px solid $mainBlueColor ;
                     }
-                    &:active{
-                        color: $mainBlueColor;
-
-                    }
-
                 }
                 input {
                     text-align: right;

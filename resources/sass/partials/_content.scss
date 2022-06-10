@@ -1,5 +1,5 @@
 .comic-section{
-
+    min-width: 918px;
     #jumbotron{
         background-image: url("../images/jumbotron.jpg");
         background-position: top;
@@ -35,6 +35,11 @@
             .comic-cover{
                 padding: 10px;
                 margin-bottom: 15px;
+
+                a{
+                    text-decoration: none;
+                    color:$whiteMainColor ;
+                }
 
                 img{
                     width: 100%;

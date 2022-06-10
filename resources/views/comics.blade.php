@@ -17,10 +17,13 @@
                 <div class="row row-cols-1 row-cols-sm-2 row-cols-md-6">
                     @foreach ( $comic_list as $comic)
                         <div class="comic-cover col">
+                            <a href="{{url("/comics/$loop->index")}}">
+                                <img src="{{ $comic['thumb'] }}" alt="{{ $comic['title'] }}">
 
-                            <img src="{{ $comic['thumb'] }}" alt="{{ $comic['title'] }}">
+                                <p>{{ $comic['title'] }}</p>
 
-                            <p>{{ $comic['title'] }}</p>
+                            </a>
+
                         </div>
                     @endforeach
                 </div>
