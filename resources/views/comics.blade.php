@@ -34,23 +34,23 @@
                 <div class="row row-cols-5 d-flex justify-content-center align-item-center">
                     <div class="col d-flex p-5 justify-content-center align-item-center gap-1">
                         <img src="{{asset('images/buy-comics-digital-comics.png')}}" alt="">
-                        <span>DIGITAL COMICS</span>
+                        <span class="align-self-center">DIGITAL COMICS</span>
                     </div>
                     <div class="col d-flex p-5 justify-content-center align-item-center gap-1">
                         <img src="{{asset('images/buy-comics-merchandise.png')}}" alt="">
-                        <span>DC MERCHANDISE</span>
+                        <span class="align-self-center">DC MERCHANDISE</span>
                     </div>
                     <div class="col d-flex p-5 justify-content-center align-item-center gap-1">
                         <img src="{{asset('images/buy-comics-subscriptions.png')}}" alt="">
-                        <span>SUBSCRIPTION</span>
+                        <span class="align-self-center">SUBSCRIPTION</span>
                     </div>
                     <div class="col d-flex p-5 justify-content-center align-item-center gap-1">
                         <img src="{{asset('images/buy-comics-shop-locator.png')}}" alt="">
-                        <span>COMIC SHOP LOCATOR</span>
+                        <span class="align-self-center">COMIC SHOP LOCATOR</span>
                     </div>
                     <div class="col d-flex p-5 justify-content-center align-item-center gap-1">
                         <img src="{{asset('images/buy-dc-power-visa.svg')}}" alt="">
-                        <span>DC POWER VISA</span>
+                        <span class="align-self-center">DC POWER VISA</span>
                     </div>
                 </div>
             </div>

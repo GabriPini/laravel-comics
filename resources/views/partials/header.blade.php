@@ -24,7 +24,7 @@
             <li><a href="{{ route('shop') }}">shop</a></li>
             <li>
                 <input type="text" placeholder="search">
-
+                <img class="search-img" src="{{asset('images/search.png')}}">
             </li>
         </ul>
     </nav>

@@ -1,6 +1,6 @@
 <footer>
 
-    <section id="upper-footer">
+    <section id="upper-footer" class="gap-5">
 
         <nav>
 
@@ -46,6 +46,9 @@
                     </li>
 
                 </ul>
+
+
+
             </div>
 
             <div class="col">
@@ -116,6 +119,7 @@
 
                 </ul>
 
+
             </div>
 
         </nav>
@@ -126,7 +130,17 @@
 
         </div>
 
+
     </section>
+
+    <div class="copyright pb-4 text-light ">
+        <p class="m-0">
+            All Site Content TM and &copy; 2020 DC Entertainment, unless otherwise
+            <a href="#">noted here</a>.
+            All right Reserved
+        </p>
+        <a href="#">Cookies Settings</a>
+    </div>
 
 
     <section id="lower-footer">
